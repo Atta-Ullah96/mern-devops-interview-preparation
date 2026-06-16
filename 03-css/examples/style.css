@@ -1,0 +1,19 @@
+/* External CSS file */
+
+.external-text {
+  color: blue;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: darkblue;
+}

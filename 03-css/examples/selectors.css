@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* ID selector */
+#main-title {
+  color: purple;
+}
+
+/* Element selector */
+p {
+  color: #333;
+}
+
+/* Class selector */
+.card {
+  border: 1px solid gray;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Descendant selector */
+.card p {
+  color: green;
+}
+
+/* Attribute selector */
+input[type="email"] {
+  border: 2px solid blue;
+}
+
+/* Pseudo-class */
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Pseudo-element */
+.card::before {
+  content: "Card: ";
+  font-weight: bold;
+}

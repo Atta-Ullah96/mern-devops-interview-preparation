@@ -1,0 +1,16 @@
+.parent {
+  color: blue;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+/* Button does not always inherit font by browser default, so we force it */
+button {
+  font-family: inherit;
+}
+
+/* Padding and border are not inherited by child elements */
+p {
+  background: #f2f2f2;
+}
