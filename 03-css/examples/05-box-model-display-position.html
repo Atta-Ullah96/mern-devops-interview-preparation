@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model Display Position Practice</title>
+    <link rel="stylesheet" href="05-box-model-display-position.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1>Storix</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Files</a>
+        <a href="#">Login</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero">
+        <h2>CSS Layout Foundation</h2>
+        <p>
+          This example practices colors, units, box model, display, position,
+          z-index, overflow, and object-fit.
+        </p>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <span class="badge">New</span>
+          <img
+            class="card-image"
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+            alt="Laptop screen showing dashboard"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Storix File Preview</h3>
+            <p class="card-description">
+              Securely upload, preview, and download your files from cloud storage.
+            </p>
+            <a class="card-button" href="#">View File</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="badge badge-dark">Pro</span>
+          <img
+            class="card-image contain"
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+            alt="Analytics dashboard"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Dashboard Analytics</h3>
+            <p class="card-description truncate">
+              This is a long description that demonstrates overflow hidden and text overflow ellipsis in CSS.
+            </p>
+            <a class="card-button secondary" href="#">Open Dashboard</a>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
