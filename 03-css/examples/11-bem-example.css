@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background-color: #f9fafb; }
+.pricing { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+.card { max-width: 360px; background-color: white; padding: 24px; border: 1px solid #e5e7eb; border-radius: 16px; }
+.card--featured { border: 2px solid #2563eb; }
+.card__title { margin: 0 0 8px; font-size: 24px; color: #111827; }
+.card__description { color: #6b7280; line-height: 1.6; }
+.card__button { background-color: #2563eb; color: white; padding: 12px 18px; border: none; border-radius: 8px; }
